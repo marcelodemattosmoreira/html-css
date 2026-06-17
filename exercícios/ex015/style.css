@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com a atenuação */
+body {
+    /* body= corpo*/
+    background-color: lightgoldenrodyellow;
+    /* background-color= fundo tela*/
+    color: chocolate;
+    /* color= cor da letras*/
+    font-size: 12px;
+    /* font-size= tamanho letras*/
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family= fonte/estilo da letras*/
+
+}
+h1 {
+    color: brown;
+    background-color: black;
+}
+a {
+    color:brown;
+    text-decoration: none;
+}

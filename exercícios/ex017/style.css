@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    font: normal 1em Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    text-align: center;
+
+}
+h2{
+    text-align: right;
+
+}
+h3{
+    text-align: left;
+
+}
+p{
+    text-justify: auto;
+    text-indent: 30px;
+}

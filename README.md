@@ -1,2 +1,3 @@
 # html-css
-estudo HTML5 e CSS3
+Estudo HTML5 e CSS3
+Estou aprendendo com a escola Curso em Video

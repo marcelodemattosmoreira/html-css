@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/espaco.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+div#astronauta{
+    background-image: url(imagens/astronauta.png);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+h1{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    left: 50%;
+    top: 85%;
+    transform: translate(80%, 50%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.555);
+    border-radius: 5px 0px;
+    position: absolute;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 05</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 5px;
+            border: 1px solid black;
+        }
+        col.cnome{
+            background-color: red;
+        }
+        col.csexo{
+            background-color: yellow;
+        }
+        col.cprofisao{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprofisao">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profisão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fernanda</td>
+                    <td>F</td>
+                    <td>38</td>
+                    <td>Professora</td>
+                </tr>
+                <tr>
+                    <td>Marcelo</td>
+                    <td>M</td>
+                    <td>38</td>
+                    <td>Telecom</td>
+                </tr>
+                <tr>
+                    <td>Theodoro</td>
+                    <td>M</td>
+                    <td>7</td>
+                    <td>Criança</td>
+                </tr>
+                <tr>
+                    <td>Marcela</td>
+                    <td>F</td>
+                    <td>14</td>
+                    <td>Aluna</td>
+                </tr>
+            </tbody>
+        
+    </table>
+    
+</body>
+</html>

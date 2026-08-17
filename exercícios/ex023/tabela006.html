@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 800px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody>tr:nth-child(odd){
+            background-color: aqua;
+        }
+        div#container{
+            overflow-x: auto ;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>
+                Cadastro
+            </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Sexo</th>
+                        <th scope="col">Idade</th>
+                        <th scope="col">Profisão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fernanda</td>
+                        <td>F</td>
+                        <td>38</td>
+                        <td>Professora</td>
+                    </tr>
+                    <tr>
+                        <td>Marcelo</td>
+                        <td>M</td>
+                        <td>38</td>
+                        <td>Telecom</td>
+                    </tr>
+                    <tr>
+                        <td>Theodoro</td>
+                        <td>M</td>
+                        <td>7</td>
+                        <td>Criança</td>
+                    </tr>
+                    <tr>
+                        <td>Marcela</td>
+                        <td>F</td>
+                        <td>14</td>
+                        <td>Aluna</td>
+                    </tr>
+                </tbody>
+        
+        </table>
+    </div>
+    
+</body>
+</html>
